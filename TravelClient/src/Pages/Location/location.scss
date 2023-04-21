@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.secTitle{
+  .title{
+        position: relative;
+        width: max-content;
+        color: var(--textColor);
+        margin: 1rem 0;
+        z-index: 2;
+
+        &::after{
+              position: absolute;
+              content: '';
+              background: var(--SecondaryColor);
+              height: 5px;
+              width: 120px;
+              right: 0;
+              bottom: 5px;
+              z-index: -1;
+        }
+  }
+} 
+  h5{
+    color: rgb(54, 149, 158);
+  }
+  h2{
+    color: rgb(7, 50, 136);
+  }
+  p1{
+    color: rgb(175, 62, 62);
+  }
+  p2{
+    color: rgb(119, 149, 44);
+  }
+  p3{
+    color: rgb(173, 73, 142);
+  }
+  hr {
+    border-top: 1px solid black;
+  }
+  P{
+    text-align: justify;
+  }

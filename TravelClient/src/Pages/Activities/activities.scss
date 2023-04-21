@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.secTitle{
+  .title{
+        position: relative;
+        width: max-content;
+        color: var(--textColor);
+        margin: 1rem 0;
+        z-index: 2;
+
+        &::after{
+              position: absolute;
+              content: '';
+              background: var(--SecondaryColor);
+              height: 5px;
+              width: 120px;
+              right: 0;
+              bottom: 5px;
+              z-index: -1;
+        }
+  }
+}
+h1{
+  color: rgb(11, 121, 175);
+  text-align: justify;
+}
+
+h2{
+  color: rgb(7, 50, 136);
+  text-align: justify;
+}
+h3{
+  color: rgb(23, 106, 106);
+  font-size: 4vh;
+  text-align: justify;
+}
+h4{
+  color: rgb(27, 137, 100);
+  font-size: 3vh;
+  text-align: justify;
+}
+.p1{
+  color: black;
+  text-align: justify;
+}
+.p2{
+  color: rgb(145, 29, 177);
+  text-align: justify;
+}
+.c{
+  text-align: justify;
+  padding: 10px 20px;
+}
+
+/*BUTTON*/
+ 
+.button {
+  color: rgb(236, 230, 230);
+  background-color: rgb(96, 173, 183);
+  border: black;
+  padding: 15px;
+  font-size: 20px;
+  width: 100%;
+  max-width: 200px;
+  margin-right: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+}
+
+image {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+}
